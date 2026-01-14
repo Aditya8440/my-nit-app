@@ -1,0 +1,46 @@
+.menu{
+    display: flex;
+    justify-content: end;
+    background-color:gray;
+    height: 40px;
+   font-weight: 100;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.desktopMenu{
+    justify-content: end;
+    height: 40px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.mobileMenu{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    position: absolute;
+    left: -120px;
+    transition: left 1s ease;
+}
+
+.mobileMenu>a{
+     width: 100%;
+     letter-spacing: 5px;
+}
+.mobileMenubtn{
+    position: absolute;
+    right: 0px;
+
+}
+.mobileMenubtn>span{
+    display: block;
+    width: 20px;
+    border: 1px solid;
+    margin: 2px;
+   
+}
+.desktopMenu>a{
+    margin-right: 15px;
+    letter-spacing: 5px;
+}
